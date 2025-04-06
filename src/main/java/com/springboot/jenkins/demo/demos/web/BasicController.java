@@ -32,7 +32,7 @@ public class BasicController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello() {
-        return "Hello " + "dev branch";
+        return "Hello " + "main branch";
     }
 
     // http://127.0.0.1:8080/user
